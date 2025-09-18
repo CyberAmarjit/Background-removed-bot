@@ -1,15 +1,14 @@
 # Background-removed-bot
 
-
-
-📲 𝙎𝙩𝙚𝙥-𝟏 : git clone
-```bash
-git clone https://github.com/CyberAmarjit/reaction-bot.git
-```
-🛠️ 𝙎𝙩𝙚𝙥-𝟐 : Update Packages
+🛠️ 𝙎𝙩𝙚𝙥-𝟏 : Update Packages
 
 ```bash
 pkg update -y && pkg upgrade -y
+```
+
+📲 𝙎𝙩𝙚𝙥-𝟐: git clone
+```bash
+git clone https://github.com/CyberAmarjit/Background-removed-bot.git
 ```
 
 
@@ -46,23 +45,23 @@ pkg install dnsutils -y
 nslookup api.telegram.org
 ```
 
-𝙎𝙩𝙚𝙥-𝟒 :
+𝙎𝙩𝙚𝙥-𝟕 :
 ```bash
 echo "nameserver 8.8.8.8" > $PREFIX/etc/resolv.conf
 echo "nameserver 1.1.1.1" >> $PREFIX/etc/resolv.conf
 ```
 
-𝙎𝙩𝙚𝙥-𝟒 :
+𝙎𝙩𝙚𝙥-𝟖 :
 ```bash
 cat token.txt
 ```
 
-𝙎𝙩𝙚𝙥-𝟒 :
+𝙎𝙩𝙚𝙥-𝟗 :
 ```bash
 pip install --upgrade requests pyTelegramBotAPI
 ```
 
-𝙎𝙩𝙚𝙥-𝟒 :
+𝙎𝙩𝙚𝙥-𝟏𝟎 :
 ```bash
 curl https://api.telegram.org
 ```
